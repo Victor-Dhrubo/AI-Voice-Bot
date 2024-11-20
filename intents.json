@@ -1,0 +1,73 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "What's up?",
+                "Hey, how are you doing?"
+            ],
+            "responses": [
+                "Hey Sir!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "file",
+            "patterns": [
+                "Create a file",
+                "Create new file"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name",
+                "Who are you"
+            ],
+            "responses": [
+                "My name is Sufferer!"
+            ]
+        },
+        {
+            "tag": "open_chrome",
+            "patterns": [
+                "Open Chrome",
+                "Launch internet",
+                "Start Chrome",
+                "browser"
+                        ],
+            "responses": [
+                "Opening Google Chrome..."
+            ],
+            "action": "open_chrome"
+        },
+        {
+            "tag": "open_camera",
+            "patterns": [
+                "Open Camera",
+                "Launch Camera",
+                "Start Camera"
+            ],
+            "responses": [
+                "Opening the camera..."
+            ],
+            "action": "open_camera"
+        },
+        {
+            "tag": "lock_laptop",
+            "patterns": [
+                "Lock the laptop",
+                "Lock my laptop",
+                "Lock my PC"
+            ],
+            "responses": [
+                "Locking your laptop..."
+            ],
+            "action": "lock_laptop"
+        }
+    ]
+}
