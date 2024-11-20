@@ -13,7 +13,7 @@ Features
 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Victor-Dhrubo/new-folder.git
+   git clone https://github.com/Victor-Dhrubo/AI-Voice-Bot.git
    ```
 2. Install dependencies:
    ```bash
